@@ -1,0 +1,15 @@
+
+#GET method without parameters
+curl -X GET http://localhost:8085/airline/welcome
+
+#GET method with url parameter
+curl -X GET http://localhost:8085/airline/info/1
+
+#POST method with parameter
+curl -d "id=23574660M" -X POST http://localhost:8085/airline/passenger
+
+#PUT method with parameters
+curl -d "fid=1&pid=27089437Z&name=Roberto&surname=Maldomingo Fasch" -X PUT http://localhost:8085/airline/addpassenger
+
+#DELETE method with url parameter
+curl -X DELETE http://localhost:8085/airline/delflight/2
