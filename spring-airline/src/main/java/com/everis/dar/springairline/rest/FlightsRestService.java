@@ -60,7 +60,7 @@ public class FlightsRestService {
 		return info;
 	}
 
-	@Operation(summary = "Passenger info", description = "Get the passengers info throught their id", tags = { "FlightsRestService" })
+	@Operation(summary = "Passenger info", description = "Get the passengers info through their id", tags = { "FlightsRestService" })
 	@PostMapping("/passenger")
 	public @ResponseBody String postPassenger(
 			@Parameter(description="Passenger id", required = true, example="23574660M", in = ParameterIn.QUERY ) @RequestParam(name = "id") String id) {
