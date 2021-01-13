@@ -13,3 +13,7 @@ curl -d "fid=1&pid=27089437Z&name=Roberto&surname=Maldomingo Fasch" -X PUT http:
 
 #DELETE method with url parameter
 curl -X DELETE http://localhost:8085/airline/delflight/2
+
+#SWAGGER URL
+http://localhost:8085/airline/swagger-ui/index.html
+Explore: /airline/v3/api-docs
