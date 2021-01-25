@@ -1,7 +1,0 @@
-Docker commands to run the microservice
-
-#Build the docker image with name springairline
-docker build -t springairline .
-
-#Run the docker image with name springairline and expose in the port 8080 of our local machine the port 8085 of the docker image
-docker run -p 8080:8085 springairline
