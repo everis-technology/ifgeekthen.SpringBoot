@@ -1,5 +1,4 @@
-spring-airline/.mvn/
-spring-airline/hs_err_pid17132.log
-spring-airline/mvnw
-spring-airline/mvnw.cmd
-spring-airline/replay_pid17132.log
+spring-airline/.classpath
+spring-airline/.project
+spring-airline/.settings/
+spring-airline/target/
