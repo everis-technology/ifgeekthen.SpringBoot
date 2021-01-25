@@ -12,7 +12,7 @@ Java project showing how to create and publish a REST api based on Spring Boot. 
 
 ### With swagger-ui
 
-Once started, access the url **http://localhost:8085/airline/swagger-ui/index.html** and check *Explore* has as value **/airline/v3/api-docs**
+Once started access the url **http://localhost:8085/airline/swagger-ui/index.html** and check *Explore* has as value **/airline/v3/api-docs**
 
 ### With curl
 
@@ -28,5 +28,5 @@ Once started, access the url **http://localhost:8085/airline/swagger-ui/index.ht
 
 1. Build the docker image with name springairline: **docker build -t springairline .**
 
-2. Run the docker image and expose in the port 8080 of the local machine the port 8085 of the docker image: **docker run -p 8080:8085 springairline**
+2. Run the docker image and expose it in the port 8080 of the local machine the port 8085 of the docker image: **docker run -p 8080:8085 springairline** 
 
