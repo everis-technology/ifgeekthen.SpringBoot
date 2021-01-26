@@ -1,4 +1,4 @@
-# ifgeekthen.SpringBoot samples
+# ifgeekthen Spring Boot  projects
 
 The purpose of ifgeekthen.SpringBoot is to share the complete code samples used in our blog https://ifgeekthen.everis.com/.
 
